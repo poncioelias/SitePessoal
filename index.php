@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+	<!-- 
+		
+  INFO!!!
+  This page was initially developed to fullfil one of the challenges proposed by Free Code Camp (https://www.freecodecamp.com)
+  Code by Ronie Meque
+  Available on https://github.com/roniemeque/SitePessoal 
+  You are free to edit and share as long as give the proper credits (at least mention under the hood)
+
+  Resources used that are NOT mine:
+  Bootstrap; Jquery; Waypoints; Smooth Scroll function by css-tricks.com;
+
+	-->
 	<title>Ronie Meque</title>
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -40,6 +52,7 @@
 	<div class="about" id="about">
 		<div class="container">
 			<h1>Sobre</h1>
+			<p>Mauris ac velit efficitur, egestas felis et, sodales ligula. Phasellus id eleifend nibh, imperdiet finibus mi. Maecenas ut purus metus. Nulla mauris neque, sollicitudin consequat diam at, suscipit convallis ante. Proin faucibus porta laoreet. In dictum lacus vel dolor euismod, vel placerat nulla ullamcorper. Aenean eget dui eget ex ultrices venenatis id sodales quam. Nam vestibulum turpis sit amet tortor lacinia feugiat. Praesent nisi nibh, placerat sed nunc sodales, pulvinar consectetur odio. Aliquam quis congue ante. Etiam eget purus quis ante gravida sollicitudin. Integer massa diam, efficitur ut luctus rhoncus, dictum vitae est. Curabitur luctus consectetur mauris ac viverra.</p>
 		</div>
 	</div>
 	<div class="clearfix"></div>	
@@ -47,6 +60,7 @@
 	<div class="portfolio" id="portfolio">
 		<div class="container">
 			<h1>Portfólio</h1>
+			<h2>Monte de nadas aqui</h2>
 		</div>
 	</div>
 	<div class="clearfix"></div>
@@ -54,13 +68,15 @@
 	<div class="contact" id="contact">
 		<div class="container">
 			<h1>Contato</h1>
+			<h2>Formzinho maneiro aqui</h2>
+
 		</div>
 	</div>
 	<div class="clearfix"></div>
 
 	<div class="footer" id="footer">
 		<div class="container">
-			<h1>Footer</h1>
+			<h1>Rodapé</h1>
 		</div>
 	</div>
 	<div class="clearfix"></div>
@@ -73,7 +89,7 @@
 		</a>
 	</div>
 
-	<h3 style="position:fixed; bottom:100px;left:20px; color:red" id="debugger">00</h3>
+	<h3 style="position:fixed; bottom:100px;left:20px; color:red; background:#fff;border: solid 2px red;" id="debugger">00</h3>
 	
 
 

@@ -1,8 +1,21 @@
+/*
+
+  INFO!!!
+  This page was initially developed to fullfil one of the challenges proposed by Free Code Camp (https://www.freecodecamp.com)
+  Code by Ronie Meque
+  Available on https://github.com/roniemeque/SitePessoal 
+  You are free to edit and share as long as give the proper credits (at least mention under the hood)
+
+  Resources used that are NOT mine:
+  Bootstrap; Jquery; Waypoints; Smooth Scroll function by css-tricks.com;
+
+*/
+
 @import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600,800';
 body{font-family: 'Open sans', sans-serif; padding-top: 50px; padding-bottom: 5px; background: #000;}
 
 
-
+/*HEADER*/
 .header{
     height:100vh;
     background: #fff url(../imgs/headerbg.jpg) center no-repeat;
@@ -30,30 +43,53 @@ body{font-family: 'Open sans', sans-serif; padding-top: 50px; padding-bottom: 5p
 .header .container h2 a:hover{
     color: #fff;
 }
+/*HEADER*/
 
 
+/*SOBRE*/
 .about{
     height: 600px;
     background: #000;
     color: #fff;
 }
+
+.about .container{
+    text-align: center;
+    display: none;
+}
+/*SOBRE*/
+
+/*PORTFOLIO*/
 .portfolio{
     height: 600px;
     background: #fff;
 }
+.portfolio .container{
+    text-align: center;
+    display: none;
+}
+/*PORTFOLIO*/
+
+/*CONTATO*/
 .contact{
     height: 600px;
     background: #000;
     color: #fff;
 }
+.contact .container{
+    text-align: center;
+    display: none;
+}
+/*CONTATO*/
 
+/*RODAPE*/
 .footer{
     height: 200px;
     background: #fff url(../imgs/headerbg.jpg) center no-repeat;
     background-attachment: fixed;
     color: #fff;
 }
-
+/*RODAPE*/
 
 /*Go to top button*/
 .gotop{
@@ -98,18 +134,18 @@ body{font-family: 'Open sans', sans-serif; padding-top: 50px; padding-bottom: 5p
 }
 #custom-bootstrap-menu.navbar-default {
     font-size: 14px;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0);
     border-bottom-width: 0px;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a {
     color: rgba(255, 255, 255, 1);
     transition: background-color 0.5s ease;
     transition: font-size 0.1s ease;
-    background-color: rgba(0, 0, 0, 1);
+    background-color: rgba(0, 0, 0, 0);
     font-size: 18px;
 }
 #custom-bootstrap-menu.navbar-default .navbar-nav>li>a:hover {
-    color: rgba(0, 0, 0, 1) ;
+    color: rgba(0, 0, 0, 1) !important ;
     background-color: rgba(255, 255, 255, 1);
     font-size: 20px;
     font-weight: bolder;
@@ -123,7 +159,8 @@ body{font-family: 'Open sans', sans-serif; padding-top: 50px; padding-bottom: 5p
 
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle {
-    border-color: #000000;
+    border-color: #fff;
+    background-color: #fff;
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus {
@@ -134,7 +171,7 @@ body{font-family: 'Open sans', sans-serif; padding-top: 50px; padding-bottom: 5p
 }
 #custom-bootstrap-menu.navbar-default .navbar-toggle:hover .icon-bar,
 #custom-bootstrap-menu.navbar-default .navbar-toggle:focus .icon-bar {
-    background-color: #000000;
+    background-color: #fff  ;
 }
 .navbar-default .navbar-collapse {text-align: center;}
 .navbar-nav{display: inline-block;float: none !important; vertical-align: top;}
@@ -147,3 +184,10 @@ body{font-family: 'Open sans', sans-serif; padding-top: 50px; padding-bottom: 5p
 /*Progress bar*/
 
 .main{margin-top: 200px; position: fixed;}
+
+
+
+
+
+
+/*mobile adjustments below*/
