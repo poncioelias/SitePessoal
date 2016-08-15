@@ -102,7 +102,7 @@
 	</div>
 
 	<div style="position:fixed; bottom:100px;left:20px;">
-		<h3 style= " color:red; background:#fff;border: solid 2px red;" id="debugger">00</h3>
+		<h3 style= " color:red; background:#fff;border: solid 2px red; font-size:12px;" id="debugger">00</h3>
 		<button class="btn btn-danger" id="toggleinfoon">Informações</button>
 	</div>
 	
@@ -111,24 +111,25 @@
 		<div class="container">
 			<p>
 				  INFO!!!<br><br>
-  This page was initially developed to fullfil one of the challenges proposed by Free Code Camp (https://www.freecodecamp.com)<br>
-  Code by Ronie Meque<br>
-  Available on: https://github.com/roniemeque/SitePessoal <br>
-  You are free to edit and share as long as give the proper credits (at least mention under the hood)<br>
+  				Essa página foi inicialmente desenvolvida para completar um dos desafios propostos em Free Code Camp (https://www.freecodecamp.com)<br>
+				  Código por Ronie Meque<br>
+				  Disponível em: https://github.com/roniemeque/SitePessoal <br>
+				  Você é livre para editar e compartilhar esse código contato que dê os devidos créditos (pelo menos por baixo do capô de seu código)<br>
 
-  Resources used that are NOT mine:
-  Bootstrap; Jquery; Waypoints; Smooth Scroll function by css-tricks.com; Font Awesome;
+				  Recursos utilizados que NÃO são de minha propriedade:
+				  Bootstrap; Jquery; Waypoints; Smooth Scroll function by css-tricks.com; Font Awesome;
 			</p>
 			<p>
-  Essa página foi inicialmente desenvolvida para completar um dos desafios propostos em Free Code Camp (https://www.freecodecamp.com)<br>
-  Código por Ronie Meque<br>
-  Disponível em: https://github.com/roniemeque/SitePessoal <br>
-  Você é livre para editar e compartilhar esse código contato que dê os devidos créditos (pelo menos por baixo do capô de seu código)<br>
+				This page was initially developed to fullfil one of the challenges proposed by Free Code Camp (https://www.freecodecamp.com)<br>
+			  Code by Ronie Meque<br>
+			  Available on: https://github.com/roniemeque/SitePessoal <br>
+			  You are free to edit and share as long as give the proper credits (at least mention under the hood)<br>
 
-  Recursos utilizados que NÃO são de minha propriedade:
-  Bootstrap; Jquery; Waypoints; Smooth Scroll function by css-tricks.com; Font Awesome;
+			  Resources used that are NOT mine:
+			  Bootstrap; Jquery; Waypoints; Smooth Scroll function by css-tricks.com; Font Awesome;
+  
 			</p>
-			<button class="btn btn-primary" id="toggleinfooff">Voltar</button>
+			<button class="btn btn-primary" id="toggleinfooff"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span></button>
 		</div>
 	</div>
 	
