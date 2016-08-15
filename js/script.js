@@ -175,3 +175,14 @@ var waypoint9 = new Waypoint({
   },
   offset: $(window).height()
 })
+
+
+//INFO
+
+$("#toggleinfoon").click(function(){
+  $("#sobresite").fadeIn(500);
+});
+
+$("#toggleinfooff").click(function(){
+  $("#sobresite").fadeOut(500);
+});

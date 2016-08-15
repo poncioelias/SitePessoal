@@ -17,7 +17,11 @@
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <meta name="theme-color" content="#000000">
+ 	<meta name="msapplication-navbutton-color" content="#000000">
+
 	<link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="bower_components/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
@@ -77,6 +81,14 @@
 	<div class="footer" id="footer">
 		<div class="container">
 			<h1>Rodapé</h1>
+			<div class="footercontact">
+				<span>Ronie Eduardo Meque</span>
+				<ul>
+					<li><a href="https://www.facebook.com/roniemeque"><i class="fa fa-facebook"></i></a></li>
+					<li><a href="https://github.com/roniemeque/"><i class="fa fa-github"></i></a></li>
+					<li><a href="https://br.linkedin.com/in/ronie-eduardo-meque-52389665"><i class="fa fa-linkedin"></i></a></li>
+				</ul>
+			</div>
 		</div>
 	</div>
 	<div class="clearfix"></div>
@@ -89,7 +101,36 @@
 		</a>
 	</div>
 
-	<h3 style="position:fixed; bottom:100px;left:20px; color:red; background:#fff;border: solid 2px red;" id="debugger">00</h3>
+	<div style="position:fixed; bottom:100px;left:20px;">
+		<h3 style= " color:red; background:#fff;border: solid 2px red;" id="debugger">00</h3>
+		<button class="btn btn-danger" id="toggleinfoon">Informações</button>
+	</div>
+	
+
+	<div class="sobresite" id="sobresite">
+		<div class="container">
+			<p>
+				  INFO!!!<br><br>
+  This page was initially developed to fullfil one of the challenges proposed by Free Code Camp (https://www.freecodecamp.com)<br>
+  Code by Ronie Meque<br>
+  Available on: https://github.com/roniemeque/SitePessoal <br>
+  You are free to edit and share as long as give the proper credits (at least mention under the hood)<br>
+
+  Resources used that are NOT mine:
+  Bootstrap; Jquery; Waypoints; Smooth Scroll function by css-tricks.com; Font Awesome;
+			</p>
+			<p>
+  Essa página foi inicialmente desenvolvida para completar um dos desafios propostos em Free Code Camp (https://www.freecodecamp.com)<br>
+  Código por Ronie Meque<br>
+  Disponível em: https://github.com/roniemeque/SitePessoal <br>
+  Você é livre para editar e compartilhar esse código contato que dê os devidos créditos (pelo menos por baixo do capô de seu código)<br>
+
+  Recursos utilizados que NÃO são de minha propriedade:
+  Bootstrap; Jquery; Waypoints; Smooth Scroll function by css-tricks.com; Font Awesome;
+			</p>
+			<button class="btn btn-primary" id="toggleinfooff">Voltar</button>
+		</div>
+	</div>
 	
 
 
